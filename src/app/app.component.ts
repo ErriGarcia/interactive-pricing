@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'Hola';
+  title: string = 'Simple, traffic-based pricing';
+  subtitle: string = 'Sign-up for our 30-day trial. No credit card required.';
+  
 }
